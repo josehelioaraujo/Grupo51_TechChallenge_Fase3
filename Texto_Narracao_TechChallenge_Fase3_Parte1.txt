@@ -1,0 +1,36 @@
+ Olá a todos!
+
+Este video tem o objetivo de apresentar o projeto relacionado ao Tech Challenge Fase 3 da primeira turma
+do curso de pós-graduação em Inteligência Artificial para Desenvolvedores da FIAP. 
+ 
+Nosso foco é o fine-tuning de modelos de linguagem de grande escala, 
+uma técnica fundamental na era da IA generativa. 
+Vamos explorar como adaptamos um modelo poderoso para tarefas específicas,
+equilibrando eficiência e desempenho.
+  
+Esta apresentação está dividida em 6 partes, que são:
+
+Na primeira parte,
+falaremos resumidamente, da parte teórica sobre o Conceito de fine-tuning em modelo LLM.
+
+Aprendemos que O fine-tuning em modelos de linguagem de grande escala, ou LLM, 
+é uma técnica poderosa que nos permite adaptar modelos pré-treinados para tarefas específicas. 
+Imagine um chef experiente que já domina as técnicas culinárias básicas 
+- o fine-tuning seria como ensiná-lo a preparar um prato regional específico.
+
+- No contexto dos LLM, começamos com um modelo que já possui um vasto conhecimento geral, 
+como o LLaMA 3 com 8 bilhões de parâmetros que usamos neste projeto.
+
+O fine-tuning então ajusta esses parâmetros usando um conjunto de dados específico para nossa tarefa, 
+ permitindo que o modelo se especialize.
+
+- Comparado com outras abordagens, como por exemplo, o treinamento do zero-shot, 
+o fine-tuning é muito mais eficiente em termos de tempo e recursos computacionais.
+ Também tende a produzir resultados melhores,
+ pois aproveita o conhecimento geral já adquirido pelo modelo.
+ 
+Agora, vamos comparar o fine-tuning com outra técnica importante: o RAG (Retrieval-Augmented Generation). 
+O RAG é uma abordagem que combina a geração de texto com a recuperação de informações de uma base de conhecimento externa.
+
+Enquanto o fine-tuning modifica os parâmetros internos do modelo, 
+o RAG mantém o modelo inalterado, mas o aumenta com informações relevantes recuperadas em tempo real
