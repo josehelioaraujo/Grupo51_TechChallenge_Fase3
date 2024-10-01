@@ -1,0 +1,43 @@
+na 2a parte, falaremos sobre Preparação de dados
+ 
+A preparação dos dados é crucial para o sucesso do fine-tuning. 
+Em nosso projeto, dividimos essa etapa em várias tarefas importantes:
+
+Primeiramente, obtivemos o conjunto de dados original "The AmazonTitles-1.3 milhoes" 
+e subimos para o Ranguing face, bem com dividimos os dados em partições ou 'chanques', pois o conjunto de dados
+original tinha cerca de 1.9 milhoes de registros, 
+e dividimos em 23 partições de 100 mil registros, 
+e fizemos o upload destes arquivos para o Ranguing Face,
+ com o intuito de evitar o uso de gravação e leitura nas pastas locais do google drive, 
+e também otimizar os recursos computacionais no google colab.
+
+Vale acrescentar, que a realização do fine tuning no treinamento de modelo llm, 
+pode ser um processo custoso, depedendo do tamanho do conjunto de dados, 
+ como foi no caso desse projeto,
+ e desta forma tivemos que adquirir algumas unidades computacionais no google colab
+ de modo a usar GPU ,ao invés de CPU,
+ economizando tempo, pois o processo estava muito demorado.
+  
+- Em seguida, analisamos as colunas "title" e "content" para entender a estrutura e o conteúdo dos dados.
+
+- Realizamos então uma limpeza cuidadosa, 
+removendo dados duplicados e irrelevantes.
+ Normalizamos o texto, removendo pontuação e caracteres html,
+ para garantir consistência das frases de perguntas e respostas.
+
+- e Por fim, organizamos os dados em prompts adequados para o treinamento do modelo
+ e dividimos os dados em partição menores,
+ de modo a evitar onerar os gastos monetários e os recursos computacionais 
+ quando da realização do treinamento do modelo. 
+ 
+ Na terceira parte, sobre a Geração de respostas sem fine-tuning
+
+Antes de aplicarmos o fine-tuning, 
+estabelecemos uma linha de base usando o modelo pré-treinado sem ajustes.
+ Para isso, utilizamos uma combinação poderosa de bibliotecas: Unsloth e Transformers.
+ 
+Usamos as bibliotecas Unsloth e a Transformers da Ranguing Face, pois
+ambas oferecem um equilíbrio entre eficiência e facilidade de uso.
+ 
+Este passo nos forneceu uma referência importante para comparar com os resultados pós fine-tuning.
+ 

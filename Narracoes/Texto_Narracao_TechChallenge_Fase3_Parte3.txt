@@ -1,0 +1,48 @@
+   
+
+Na quarta parte, sobre a Geração de respostas com fine-tuning
+
+- Agora, chegamos ao coração do nosso projeto: o fine-tuning do modelo LLaMA 3 com 8 bilhões de parâmetros. 
+Este processo envolveu várias etapas cruciais:
+
+- Começamos preparando o ambiente e carregando o modelo pré-treinado.
+- Aplicamos técnicas avançadas de otimização, como a quantização de 4 bits
+ e a técnica Parameter Efficient Fine-Tuning (PEFT),
+ para tornar o processo mais eficiente em termos de memória e computação.
+
+- Em seguida, carregamos e formatamos nosso conjunto de dados personalizado para o treinamento. 
+- Utilizamos a bibliteca SFTTrainer para executar o fine-tuning, 
+com configurações específicas para melhorar a eficiência e o desempenho do treinamento.
+
+- Após o treinamento, salvamos o modelo ajustado e o testamos, 
+gerando respostas para prompts do usuário. 
+
+Os resultados mostraram que o modelo agora era capaz de produzir respostas mais relevantes
+ e contextualmente apropriadas para nossa tarefa específica.
+
+na 5a parte, sobre as conclusões:
+
+- Concluimos que o nosso projeto demonstrou o poder e a flexibilidade do fine-tuning de modelos de LLM.
+ Conseguimos adaptar com sucesso um modelo de 8 bilhões de parâmetros para uma tarefa específica, 
+ mantendo a eficiência computacional através de técnicas avançadas de otimização.
+
+- e um insight bem importante foi a eficácia da combinação das bibliotecas Unsloth e Transformers,
+ que nos permitiu equilibrar eficiência e facilidade de uso, 
+ especialmente valioso quando trabalhamos com recursos computacionais limitados.
+
+e por fim, na 6a e última parte, sugerimos algumas melhorias futuras, tais como:
+ 
+- Experimentar com diferentes configurações de hiper parâmetros para otimizar ainda mais o modelo.
+- Desenvolver uma interface de usuário para facilitar a interação com o modelo.
+- Implementar um sistema de avaliação automática da qualidade das respostas geradas.
+ 
+E para terminar, algumas Palavras de agradecimento aos professores e o corpo de alunos que participaram
+das lives para tirar dúvidas sobre o projeto, 
+onde obtivemos insaites e dicas valiosas para elaboração do projeto.
+
+ Esperamos que nossa apresentação tenha demonstrado o potencial e as nuances do fine-tuning
+ de modelos de linguagem de grande escala. 
+ 
+ Estamos abertos a perguntas e ansiosos para discutir mais detalhadamente qualquer aspecto do nosso trabalho.
+
+ Muito obrigado e até logo!

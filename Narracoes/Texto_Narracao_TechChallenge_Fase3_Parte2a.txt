@@ -1,0 +1,43 @@
+ 
+Um ponto a destacar, nesse projeto, é que fizemos duas avaliação do modelo,
+uma avaliação usando o fine-tuning e outra sem usar o fine tuning.
+ 
+Para essas 2 avaliações, utilizamos as cinco métricas principais, que são:
+BLEU Score
+ROUGE-L F1
+BERTScore F1, 
+Diversidade Léxica 
+e Comprimento Médio
+ 
+Cada uma dessas métricas nos fornece informações valiosas sobre diferentes aspectos do desempenho do modelo.
+
+Os resultados foram bastante interessantes. 
+O modelo com fine-tuning demonstrou um desempenho superior em praticamente todas as métricas.
+
+Vamos analisar , alguns insaites obtidos por estas métricas, por exemplo:
+
+-  O BLEU Score, que mede a similaridade entre o texto gerado e a referência,
+ foi significativamente maior no modelo com fine-tuning. Isso indica que o processo de ajuste fino melhorou a capacidade do modelo de gerar texto mais próximo das referências.
+- ROUGE-L F, que mede, termos de coerência e fluidez, o modelo com fine-tuning também se destacou.
+ Suas respostas foram mais coesas e fluidas em comparação com o modelo sem ajuste.
+
+-  BERTScore F1, que mede a compreensão semântica, também foi aprimorada com o fine-tuning. 
+O modelo ajustado demonstrou maior capacidade de gerar textos semanticamente semelhantes às referências.
+ 
+Quanto ao comprimento das respostas, notamos que o modelo com fine-tuning tende a gerar textos mais longos. 
+Isso pode ser desejável ou não, dependendo da aplicação específica.
+
+Com base nesses resultados, podemos concluir que o processo de fine-tuning
+ foi bem-sucedido em melhorar diversos aspectos do desempenho do modelo.
+
+ No entanto, ainda há espaço para melhorias e 
+ algumas sugestões para otimizar ainda mais o processo de fine-tuning, que são;
+ 
+- Explorar estratégias para aumentar o BLEU Score.
+- Ajustar o conjunto de dados de treinamento e os hiper parâmetros para melhorar ainda mais a coerência e a fluidez do texto.
+- Aprimorar a compreensão semântica através de ajustes no conjunto de dados, aumento no número de épocas de treinamento e exploração de novas técnicas.
+- Ajustar os hiper parâmetros  de geração para ter um melhor controle sobre o comprimento das respostas.
+
+Para resumir, o processo de fine-tuning demonstrou ser uma ferramenta poderosa
+para melhorar o desempenho do nosso LLM com ajustes contínuos e refinamentos baseados nessas métricas. 
+ 
