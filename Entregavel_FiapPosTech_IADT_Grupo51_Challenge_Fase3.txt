@@ -1,0 +1,38 @@
+---------------------------------------------------------------------------
+Curso Pós Graduação de Integência Artificial para Desenvolvedores - Fiap
+Grupo 51 - Tech Challenge Fase 3 
+---------------------------------------------------------------------------
+Alunos:
+RM355027 - José Hélio Araujo Andrade - helioandrade@hotmail.com
+RM356210 - Bernardo Guimarães Tinti  - betinti@hotmail.com
+----------------------------------------------------------------------------
+Objetivo:
+- Projeto da solução do problema do Tech Challenge Fase 3, sobre a realização do processo
+  de Fine Tuning de um Modelo Foundation LLM(Lhama 3.8B),utilizando o dataset "The AmazonTitles-1.3MM".
+    
+Entregáveis: 
+
+1-Repositório Github
+  https://github.com/josehelioaraujo/Grupo51_TechChallenge_Fase3
+
+2-Video Apresentação no Youtube
+   https://www.youtube.com/watch?v=Tg8BMBnIWOI
+ 
+3-Arquivos no Google Colab
+3.1-Arquivo Colab Principal
+    https://colab.research.google.com/drive/1PWEjYtJVAXYlr2zqjj3Ts8r_gW31m_cV#scrollTo=48mnS5Es6O_y
+  
+3.2-Arquivo Colab da Etapa Preparação de Dados
+    https://colab.research.google.com/drive/1QBcfFYk8ij5GZZ8lHKjMhzXUnTgcXUQN#scrollTo=lFz7PZnJBCg
+  
+3.3-Arquivo Colab da Etapa de Geração de Perguntas e Respostas - Sem Fine Tuning
+   https://colab.research.google.com/drive/1dsZ8I_LtLQ2d6H5fmQMw9JZP8NrzZ7at#scrollTo=PFioDDNoSFUf
+ 
+3.4-Arqivo Colab da Etapa de Geração de Perguntas e Respostas - Com Fine Tuning
+   https://colab.research.google.com/drive/1C4ti87nuhmzfHzjwc-iqYitp883bZRGA
+  
+3.5 Colab com avaliação do modelo - com e sem fine tuning
+    https://colab.research.google.com/drive/1hlUUkRJZeVQoqlSzaaAxJwbBCC6cklEr
+
+ 
+ 
